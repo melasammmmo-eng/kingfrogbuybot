@@ -541,7 +541,7 @@ class TicketView(View):
             
             await ticket_channel.send(
                 f"{interaction.user.mention} **{title_prefix}**\n\n"
-                "Thank you for opening a ticket! Staff will assist you shortly.\n"
+                "Thank you for opening a ticket! list what feutres you want.\n"
                 "Use the button below to close this ticket when finished.",
                 view=CloseTicketView()
             )
